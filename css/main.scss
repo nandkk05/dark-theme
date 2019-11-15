@@ -19,6 +19,30 @@ html[data-theme='dark'] {
     --color-text: #B5B5B5;
 }
 
+/* Heart Icon
+--------------------------------------------- */
+
+.site-footer .icon {
+    font-size: 20px;
+}
+
+.site-footer .love .icon {
+    font-size: 12px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.center,
+.love {
+    position: fixed;
+    left: 0;
+    bottom: 2px;
+    width: 100%;
+    color: var(--color-text);
+    text-align: center;
+}
+
+
 body {
     background-color: var(--bg);
 }
